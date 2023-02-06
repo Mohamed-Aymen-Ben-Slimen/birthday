@@ -194,7 +194,7 @@ const animationTimeline = () => {
       },
       "-=2"
     )
-    .from(".hat", 0.5, {
+    .from(".hat", 1, {
       x: -100,
       y: 350,
       rotation: -180,
@@ -202,7 +202,7 @@ const animationTimeline = () => {
     })
     .staggerFrom(
       ".wish-hbd span",
-      0.7,
+      1.5,
       {
         opacity: 0,
         y: -50,
